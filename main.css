@@ -11,23 +11,24 @@
     /*ttf Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 body {
-    background-color: #cfcfcf;
+    background-color: #C7D096;
 }
 a, p, li, h3, h4, h5 {
     font-family: 'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
 }
 
 .navbar-custom {
-    background-color:#000;
+    background-color:#665F39;
     color:#ffffff;
     border-radius:0;
+    box-shadow: 0px 0 6px #202020;
 }
 
 .navbar-custom .navbar-nav > li > a {
     color:#fff;
 }
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-    color: #ffffff;
+    color: #ABDFC9; 
     background-color:transparent;
 }
 .navbar-custom .navbar-brand {
@@ -44,7 +45,8 @@ a.navbar-brand {
   padding-bottom: 35px;
 }*/
 .container {
-    background-color: #999;
+    background-color: #ABDFC9;
+    box-shadow: 1px 0 2px #888,-1px 0 2px 1px #888;
 }
 div#manage-btns {
     padding-top: 15px;
@@ -53,12 +55,12 @@ div#manage-btns {
     text-align: center;
     background-color: #fff;
     font-size: 1.5em;
-    margin: 20px 15%;
+    margin: 30px 15%;
     width: 70%;
     font-family: 'Teen', 'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
     padding: 22px 2px;
     box-shadow: 0px 1px 1px #222,-1px -1px 10px #444;
-    border-radius: 17%;
+    border-radius: 1em;
 }
 @media (min-width: 992px) {
     #new-word {
@@ -76,7 +78,7 @@ div#manage-btns {
     font-size: 1.5em;
     font-family: 'Teen', 'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
     box-shadow: 1px 0 2px #333;
-    border-radius: 30%;
+    border-radius: 0.8em;
 }
 .answers {
     margin: 20px 6%;
@@ -88,26 +90,27 @@ div#manage-btns {
 .statistics {
     height: auto;
     width: 100%;
-    background-color: #a0a0a0;
+    background-color: #665F39;
     padding-top: 14px;
     padding-bottom: 20px;
     display: inline-block;
+    color: #eee;
 }
 
 #container-answers {
-	background-color: #fff;
+    background-color: #F3F3E0;
 
 }
 .answers {
     list-style: none;
     padding: 0 0;
     width: 80%;
-    background-color: #fff;
+    background-color: #F3F3E0;
 }
 .answers li {
     margin: 10px 10px;
     padding: 10px 10px;
-    background-color: #ddd;
+    background-color: #C7D096;
     font-size: 1.2em;
     box-shadow: 1px 0 2px #888;
 }
