@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="de">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap</title>
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Stylesheets -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="main.css">
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Artikel Affe</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Facebook</a>
+                    </li>
+                    <li><a href="#">Twitter</a>
+                    </li>
+                    <li><a href="#">Google+</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">User name <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Action</a>
+                            </li>
+                            <li><a href="#">Another action</a>
+                            </li>
+                            <li><a href="#">Something else here</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <hr />
+    <div class="container col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+
+        <div id="manage-btns" class="row">
+
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <p id="new-word" class="btn-lg">Kanzleiasdfllungstrasse</p>
+                </div>
+            </div>
+            <div id="answer-buttons" class="row">
+                <div class="col-xs-4">
+                    <p class="btn">der</p>
+                </div>
+                <div class="col-xs-4">
+                    <p class="btn">die</p>
+                </div>
+                <div class="col-xs-4">
+                    <p class="btn">das</p>
+                </div>
+            </div>
+
+
+
+        </div>
+        <hr />
+        <div id="container-answers" class="row">
+            <div id="answers-correct" class="col-xs-5 col-xs-offset-1">
+                <h3>Correct</h3>
+                <ul class="answers">
+                    <li>der Tee</li>
+                    <li>der Tee</li>
+                    <li>der Tee</li>
+                </ul>
+            </div>
+
+            <div id="answers-incorrect" class="col-xs-5">
+                <h3>Failed</h3>
+                <ul class="answers">
+                    <li>der Tee</li>
+                    <li>der Tee</li>
+                    <li>der Tee</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="statistics">
+        <div id="statistics" class="col-md-8 col-md-offset-2">
+            <h3>Statistics</h3>
+            <div class="row">
+                <div id="individual-stat" class="col-sm-4 col-sm-offset-2 col-xs-6">
+                    <h5>Your stats</h5>
+                    <ul>
+                        <li># of new words shown
+                            <span>1135</span>
+                        </li>
+                        <li># of corrected answers
+                            <span>1000</span>
+                        </li>
+                        <li>Accuracy
+                            <span>90,3%</span>
+                        </li>
+                    </ul>
+                </div>
+                <div id="community-stat" class="col-sm-4 col-xs-6">
+                    <h5>Community stats</h5>
+                    <ul>
+
+                        <li># of new words shown
+                            <span>1135</span>
+                        </li>
+                        <li># of corrected answers
+                            <span>1000</span>
+                        </li>
+                        <li>Accuracy
+                            <span>90,3%</span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="my.js"></script>
+
+</body>
+
+</html>
